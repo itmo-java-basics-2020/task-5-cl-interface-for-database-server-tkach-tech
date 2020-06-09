@@ -1,6 +1,9 @@
 package ru.andrey.kvstorage.console;
 
-import ru.andrey.kvstorage.commands.*;
+import ru.andrey.kvstorage.commands.CreateDatabaseCommand;
+import ru.andrey.kvstorage.commands.CreateTableCommand;
+import ru.andrey.kvstorage.commands.ReadKeyCommand;
+import ru.andrey.kvstorage.commands.UpdateKeyCommand;
 import ru.andrey.kvstorage.exception.DatabaseException;
 
 public enum DatabaseCommands {
